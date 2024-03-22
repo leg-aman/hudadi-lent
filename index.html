@@ -149,6 +149,41 @@
 </head>
 
 <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+<!-- Button trigger modal (remove this button since we're triggering the modal automatically) -->
+<!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>-->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript to trigger the modal automatically -->
+<script>
+  // Wait for the DOM content to be fully loaded
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get the modal element
+    var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+
+    // Show the modal
+    myModal.show();
+  });
+</script>
 
     <header class="tm-site-header-box tm-bg-dark">
         <h1>Hudade | Lent</h1>
