@@ -1,6 +1,10 @@
 git clone paste link <br>
-git status
-git add .
-git commit -m initialcommit
-git push origin main
-git checkout -b styling
+git status <br>
+git add . <br>
+git commit -m initialcommit <br>
+git push origin main <br>
+git checkout -b styling <br>
+
+<ul>
+  <li>git clone paste link</li>
+</ul>
