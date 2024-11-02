@@ -1,4 +1,4 @@
-git clone paste link 
+git clone paste link <br>
 git status
 git add .
 git commit -m initialcommit
