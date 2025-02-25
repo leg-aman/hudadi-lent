@@ -194,7 +194,7 @@
             const weekNumber = Math.ceil((daysPassed + firstDayOfYear.getDay() + 1) / 7);
             return weekNumber;
         }
-        const curWeek = document.querySelectorAll("#cur_week")
+        const curWeek = document.getElementById('cur_week')
         const weekNumber = getCurrentWeekNumber();
         let outputValue = (weekNumber >= 9 && weekNumber <= 17) ? weekNumber - 8 : "Invalid hour";
 
