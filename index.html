@@ -22,7 +22,7 @@
             <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
           </svg> 55 days | 8 weeks</h6>
 
-        <span id="cur_week" class="badge text-bg-warning text-dark"></span>
+        <span> It's week <span id="cur_week" class="badge text-bg-warning text-dark"></span> now.</span>
     </header>
 
 
@@ -198,7 +198,7 @@
         const weekNumber = getCurrentWeekNumber();
         let outputValue = (weekNumber >= 9 && weekNumber <= 17) ? weekNumber - 8 : "Invalid hour";
 
-        curWeek.innerHTML = "It's week " + outputValue + " now."
+        curWeek.innerHTML = outputValue
 
 
     </script>
