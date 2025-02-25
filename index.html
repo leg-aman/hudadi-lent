@@ -196,7 +196,7 @@
         }
 
         const weekNumber = getCurrentWeekNumber();
-        let outputValue = (weekNumber >= 11 && weekNumber <= 19) ? weekNumber - 10 : "Invalid hour";
+        let outputValue = (weekNumber >= 9 && weekNumber <= 17) ? weekNumber - 8 : "Invalid hour";
 
         document.querySelectorAll("#cur_week").innerHTML = "It's week " + outputValue + " now."
 
